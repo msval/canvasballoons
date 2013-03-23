@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Canvas Balloons</title>
+		<style>
+			* {
+			  margin: 0;
+			  padding: 0;
+			}
+			canvas {
+			  margin: 0 auto;
+			  display: block;
+			  border-left: 0;
+			  border-right: 0;
+			}
+			p {
+			  position: absolute;
+			  top: 14px;
+			  left: 8px;
+			  font-family: Helvetica, Arial, sans-serif;
+			  color: #aaa;
+			}
+		</style>
+	</head>
+	<body>
+	<p>
+		left and right - wind direction<br/>
+		up key - climb<br/>
+		down key - fall<br/>
+		enter - reset climb and fall
+	</p>
+	<canvas id="mainCanvas"></canvas>
+	<script src="balloon.js"></script>
+	</body>
+</html>
